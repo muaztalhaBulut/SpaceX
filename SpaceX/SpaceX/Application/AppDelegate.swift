@@ -9,15 +9,9 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
-        window = UIWindow(windowScene: windowScene)
-        let viewModel = LaunchViewModel(router: LaunchRouter(), launchService: APIService())
-        let homeViewController = LaunchViewController(viewModel: viewModel)
-        let navigationController = UINavigationController(rootViewController: homeViewController)
-        window?.rootViewController = navigationController
-        window?.makeKeyAndVisible()
+        // Override point for customization after application launch.
         return true
     }
 
