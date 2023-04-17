@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		BCC1525129ED537100DACFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1525029ED537100DACFCD /* AppDelegate.swift */; };
 		BCC1525329ED537100DACFCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1525229ED537100DACFCD /* SceneDelegate.swift */; };
-		BCC1525529ED537100DACFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1525429ED537100DACFCD /* ViewController.swift */; };
-		BCC1525829ED537100DACFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC1525629ED537100DACFCD /* Main.storyboard */; };
 		BCC1525A29ED537200DACFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC1525929ED537200DACFCD /* Assets.xcassets */; };
 		BCC1525D29ED537200DACFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC1525B29ED537200DACFCD /* LaunchScreen.storyboard */; };
+		BCC1527329ED55C600DACFCD /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1526F29ED55C600DACFCD /* LaunchViewModel.swift */; };
+		BCC1527429ED55C600DACFCD /* LaunchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1527029ED55C600DACFCD /* LaunchBuilder.swift */; };
+		BCC1527529ED55C600DACFCD /* LaunchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1527129ED55C600DACFCD /* LaunchRouter.swift */; };
+		BCC1527629ED55C600DACFCD /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1527229ED55C600DACFCD /* LaunchViewController.swift */; };
+		BCC1527C29ED57B800DACFCD /* LaunchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1527829ED57B800DACFCD /* LaunchDetailView.swift */; };
+		BCC1527D29ED57B800DACFCD /* LaunchDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1527929ED57B800DACFCD /* LaunchDateView.swift */; };
+		BCC1527E29ED57B800DACFCD /* LaunchLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1527A29ED57B800DACFCD /* LaunchLinkView.swift */; };
+		BCC1527F29ED57B800DACFCD /* RocketInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1527B29ED57B800DACFCD /* RocketInfoView.swift */; };
+		BCC1528329ED57C000DACFCD /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1528029ED57C000DACFCD /* DetailViewModel.swift */; };
+		BCC1528429ED57C000DACFCD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1528129ED57C000DACFCD /* DetailViewController.swift */; };
+		BCC1528529ED57C000DACFCD /* DetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1528229ED57C000DACFCD /* DetailBuilder.swift */; };
+		BCC1528829ED57D000DACFCD /* LaunchDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1528629ED57D000DACFCD /* LaunchDetailModel.swift */; };
+		BCC1528929ED57D000DACFCD /* LaunchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1528729ED57D000DACFCD /* LaunchModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BCC1524D29ED537100DACFCD /* SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC1525029ED537100DACFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCC1525229ED537100DACFCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCC1525429ED537100DACFCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BCC1525729ED537100DACFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCC1525929ED537200DACFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCC1525C29ED537200DACFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCC1525E29ED537200DACFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC1526F29ED55C600DACFCD /* LaunchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		BCC1527029ED55C600DACFCD /* LaunchBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchBuilder.swift; sourceTree = "<group>"; };
+		BCC1527129ED55C600DACFCD /* LaunchRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchRouter.swift; sourceTree = "<group>"; };
+		BCC1527229ED55C600DACFCD /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		BCC1527829ED57B800DACFCD /* LaunchDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchDetailView.swift; sourceTree = "<group>"; };
+		BCC1527929ED57B800DACFCD /* LaunchDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchDateView.swift; sourceTree = "<group>"; };
+		BCC1527A29ED57B800DACFCD /* LaunchLinkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchLinkView.swift; sourceTree = "<group>"; };
+		BCC1527B29ED57B800DACFCD /* RocketInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocketInfoView.swift; sourceTree = "<group>"; };
+		BCC1528029ED57C000DACFCD /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		BCC1528129ED57C000DACFCD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BCC1528229ED57C000DACFCD /* DetailBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBuilder.swift; sourceTree = "<group>"; };
+		BCC1528629ED57D000DACFCD /* LaunchDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchDetailModel.swift; sourceTree = "<group>"; };
+		BCC1528729ED57D000DACFCD /* LaunchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,122 @@
 		BCC1524F29ED537100DACFCD /* SpaceX */ = {
 			isa = PBXGroup;
 			children = (
+				BCC1526429ED54D300DACFCD /* Application */,
+				BCC1526529ED54E500DACFCD /* Home */,
+				BCC1526629ED54EA00DACFCD /* Detail */,
+				BCC1526729ED54EF00DACFCD /* Model */,
+				BCC1526829ED54F500DACFCD /* Service */,
+				BCC1526A29ED550700DACFCD /* Helper */,
+				BCC1526929ED550000DACFCD /* Managers */,
+				BCC1526E29ED552600DACFCD /* Resources */,
+			);
+			path = SpaceX;
+			sourceTree = "<group>";
+		};
+		BCC1526429ED54D300DACFCD /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				BCC1525029ED537100DACFCD /* AppDelegate.swift */,
 				BCC1525229ED537100DACFCD /* SceneDelegate.swift */,
-				BCC1525429ED537100DACFCD /* ViewController.swift */,
-				BCC1525629ED537100DACFCD /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BCC1526529ED54E500DACFCD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1527029ED55C600DACFCD /* LaunchBuilder.swift */,
+				BCC1527129ED55C600DACFCD /* LaunchRouter.swift */,
+				BCC1527229ED55C600DACFCD /* LaunchViewController.swift */,
+				BCC1526F29ED55C600DACFCD /* LaunchViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BCC1526629ED54EA00DACFCD /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1528229ED57C000DACFCD /* DetailBuilder.swift */,
+				BCC1528129ED57C000DACFCD /* DetailViewController.swift */,
+				BCC1528029ED57C000DACFCD /* DetailViewModel.swift */,
+				BCC1527729ED57AE00DACFCD /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		BCC1526729ED54EF00DACFCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1528629ED57D000DACFCD /* LaunchDetailModel.swift */,
+				BCC1528729ED57D000DACFCD /* LaunchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCC1526829ED54F500DACFCD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BCC1526929ED550000DACFCD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BCC1526A29ED550700DACFCD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1526D29ED551C00DACFCD /* TableView */,
+				BCC1526C29ED551600DACFCD /* View */,
+				BCC1526B29ED550E00DACFCD /* Constant */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BCC1526B29ED550E00DACFCD /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		BCC1526C29ED551600DACFCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCC1526D29ED551C00DACFCD /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		BCC1526E29ED552600DACFCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				BCC1525929ED537200DACFCD /* Assets.xcassets */,
 				BCC1525B29ED537200DACFCD /* LaunchScreen.storyboard */,
 				BCC1525E29ED537200DACFCD /* Info.plist */,
 			);
-			path = SpaceX;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BCC1527729ED57AE00DACFCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1527929ED57B800DACFCD /* LaunchDateView.swift */,
+				BCC1527829ED57B800DACFCD /* LaunchDetailView.swift */,
+				BCC1527A29ED57B800DACFCD /* LaunchLinkView.swift */,
+				BCC1527B29ED57B800DACFCD /* RocketInfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +256,6 @@
 			files = (
 				BCC1525D29ED537200DACFCD /* LaunchScreen.storyboard in Resources */,
 				BCC1525A29ED537200DACFCD /* Assets.xcassets in Resources */,
-				BCC1525829ED537100DACFCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +266,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCC1525529ED537100DACFCD /* ViewController.swift in Sources */,
+				BCC1527429ED55C600DACFCD /* LaunchBuilder.swift in Sources */,
+				BCC1527629ED55C600DACFCD /* LaunchViewController.swift in Sources */,
+				BCC1527F29ED57B800DACFCD /* RocketInfoView.swift in Sources */,
+				BCC1528829ED57D000DACFCD /* LaunchDetailModel.swift in Sources */,
+				BCC1528429ED57C000DACFCD /* DetailViewController.swift in Sources */,
 				BCC1525129ED537100DACFCD /* AppDelegate.swift in Sources */,
+				BCC1527D29ED57B800DACFCD /* LaunchDateView.swift in Sources */,
+				BCC1527C29ED57B800DACFCD /* LaunchDetailView.swift in Sources */,
+				BCC1527529ED55C600DACFCD /* LaunchRouter.swift in Sources */,
+				BCC1528929ED57D000DACFCD /* LaunchModel.swift in Sources */,
 				BCC1525329ED537100DACFCD /* SceneDelegate.swift in Sources */,
+				BCC1527E29ED57B800DACFCD /* LaunchLinkView.swift in Sources */,
+				BCC1528529ED57C000DACFCD /* DetailBuilder.swift in Sources */,
+				BCC1528329ED57C000DACFCD /* DetailViewModel.swift in Sources */,
+				BCC1527329ED55C600DACFCD /* LaunchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BCC1525629ED537100DACFCD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCC1525729ED537100DACFCD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BCC1525B29ED537200DACFCD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,9 +423,8 @@
 				INFOPLIST_FILE = SpaceX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,9 +449,8 @@
 				INFOPLIST_FILE = SpaceX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
