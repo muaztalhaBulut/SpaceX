@@ -1,6 +1,5 @@
 //
 //  LaunchBuilder.swift
-//  MobilliumSpaceX-CodeChallenge
 //
 //  Created by Talha on 31.03.2023.
 //

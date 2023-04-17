@@ -1,6 +1,5 @@
 //
 //  DetailBuilder.swift
-//  MobilliumSpaceX-CodeChallenge
 //
 //  Created by Talha on 2.04.2023.
 //

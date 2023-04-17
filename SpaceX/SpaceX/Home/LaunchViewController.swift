@@ -1,6 +1,5 @@
 //
 //  LaunchViewController.swift
-//  MobilliumSpaceX-CodeChallenge
 //
 //  Created by Talha on 30.03.2023.
 //

@@ -1,6 +1,5 @@
 //
 //  DateView.swift
-//  MobilliumSpaceX-CodeChallenge
 //
 //  Created by Talha on 1.04.2023.
 //
